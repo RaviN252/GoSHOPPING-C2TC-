@@ -1,11 +1,7 @@
 package com.tns.framework;
-
-public     class PrimeAcc extends ShopAcc
+public class PrimeAcc extends ShopAcc
 {
-
-	
 	public static boolean isPrime;
-	
 	public PrimeAcc(int accNo, String accNm, float charges, boolean isPrime) {
 		super(accNo, accNm, charges);
 		this.setPrime(isPrime);
@@ -26,7 +22,4 @@ public     class PrimeAcc extends ShopAcc
 	public void setPrime(boolean isPrime) {
 		this.isPrime = isPrime;
 	}
-	
-	
-	
 }
