@@ -1,13 +1,9 @@
 package com.tns.framework;
-
 public class ShopAcc 
-{
-
+{	
 	protected static int accNo;
 	protected static String accNm;
 	private float charges;
-	
-	
 	
 	public int getAccNo() {
 		return accNo;
@@ -27,11 +23,8 @@ public class ShopAcc
 	public void setAccNm(String accNm) {
 		this.accNm = accNm;
 	}
-	
-	
 	public ShopAcc(int accNo, String accNm, float charges) 
 	{
-
 		this.accNo = accNo;
 		this.setAccNm(accNm);
 		this.charges = charges;
@@ -49,7 +42,4 @@ public class ShopAcc
 		return "ShopAcc [accNo=" + accNo + ", accNm=" + getAccNm() + ", charges=" + charges + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
-	
-	
-	
 }
